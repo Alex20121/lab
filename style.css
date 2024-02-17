@@ -1,0 +1,295 @@
+
+body {
+    background-color: aquamarine;
+}
+
+
+
+/* This is the style for the main container of your web page */
+.container {
+    /* This sets the maximum width of the container to 1200 pixels */
+    max-width: 1200px;
+    /* This centers the container horizontally */
+    margin: 0 auto;
+  }
+  
+  /* This is the style for the header section of your web page */
+  .header {
+    /* This sets the height of the header to 100 pixels */
+    height: 100px;
+    /* This sets the background color of the header to black */
+    background-color: black;
+    /* This sets the display mode of the header to flexbox */
+    display: flex;
+    /* This aligns the items of the header vertically */
+    align-items: center;
+}
+
+/* This is the style for the logo of your web page */
+.logo {
+  /* This sets the width of the logo to 100 pixels */
+  width: 100px;
+  /* This sets the height of the logo to 100 pixels */
+  height: 100px;
+  /* This sets the margin of the logo to 10 pixels */
+  margin: 10px;
+}
+
+/* This is the style for the navigation menu of your web page */
+.nav {
+  /* This sets the display mode of the nav to flexbox */
+  display: flex;
+  /* This sets the gap between the nav items to 20 pixels */
+  gap: 20px;
+}
+
+/* This is the style for the nav items of your web page */
+.nav a {
+  /* This sets the color of the nav items to white */
+  color: white;
+  /* This sets the font size of the nav items to 16 pixels */
+  font-size: 16px;
+  /* This sets the font family of the nav items to Montserrat */
+  font-family: Montserrat;
+  /* This sets the font weight of the nav items to 500 */
+  font-weight: 500;
+  /* This removes the underline of the nav items */
+  text-decoration: none;
+}
+
+/* This is the style for the active nav item of your web page */
+.nav a.active {
+  /* This sets the border of the active nav item to 2 pixels solid white */
+  border-bottom: 2px solid white;
+}
+
+/* This is the style for the main content section of your web page */
+.content {
+  /* This sets the margin of the content to 20 pixels */
+  margin: 20px;
+}
+
+/* This is the style for the banner section of your web page */
+.banner {
+  /* This sets the height of the banner to 900 pixels */
+  height: 900px;
+  /* This sets the background image of the banner to the image you uploaded */
+  background-image: url("baner.jpeg");
+  /* This sets the background size of the banner to cover the entire section */
+  background-size: cover;
+  /* This sets the background position of the banner to center */
+  background-position: center;
+  /* This sets the display mode of the banner to flexbox */
+  display: flex;
+  /* This sets the flex direction of the banner to column */
+  flex-direction: column;
+  /* This aligns the items of the banner horizontally */
+  justify-content: center;
+  /* This aligns the items of the banner vertically */
+  align-items: center;
+}
+
+/* This is the style for the title of your web page */
+.banner h1 {
+  /* This sets the color of the title to white */
+  color: white;
+  /* This sets the font size of the title to 48 pixels */
+  font-size: 48px;
+  /* This sets the font family of the title to Montserrat */
+  font-family: Montserrat;
+  /* This sets the font weight of the title to 800 */
+  font-weight: 800;
+   /* This sets the text align of the title to center */
+   text-align: center;
+}
+
+/* This is the style for the subtitle of your web page */
+.banner p {
+  /* This sets the color of the subtitle to white */
+  color: white;
+  /* This sets the font size of the subtitle to 16 pixels */
+  font-size: 16px;
+  /* This sets the font family of the subtitle to Montserrat */
+  font-family: Montserrat;
+  /* This sets the font weight of the subtitle to 500 */
+  font-weight: 500;
+  /* This sets the text align of the subtitle to center */
+  text-align: center;
+}
+/* This is the style for the button of your web page */
+.banner button {
+    /* This sets the width of the button to 200 pixels */
+    width: 200px;
+    /* This sets the height of the button to 45 pixels */
+    height: 45px;
+    /* This sets the background color of the button to #4985FF */
+    background-color: #4985FF;
+    /* This sets the box shadow of the button to 0px 0px 10px rgba(111.35, 111.35, 111.35, 0.25) */
+    box-shadow: 0px 0px 10px rgba(111.35, 111.35, 111.35, 0.25);
+    /* This sets the border radius of the button to 30 pixels */
+    border-radius: 30px;
+    /* This sets the color of the button text to white */
+    color: white;
+    /* This sets the font size of the button text to 16 pixels */
+    font-size: 16px;
+    /* This sets the font family of the button text to Montserrat */
+    font-family: Montserrat;
+    /* This sets the font weight of the button text to 500 */
+    font-weight: 500;
+    /* This sets the text align of the button text to center */
+  text-align: center;
+  /* This sets the cursor of the button to pointer */
+  cursor: pointer;
+}
+
+/* This is the style for the introduction section of your web page */
+.intro {
+  /* This sets the display mode of the intro to flex
+
+
+  /* This is the CSS code for the project section of your web page */
+.projects {
+  /* This sets the margin of the project section to 20 pixels */
+  margin: 20px;
+  /* This sets the text align of the project section to center */
+  text-align: center;
+}
+
+/* This is the style for the heading of the project section */
+.projects h2 {
+  /* This sets the color of the heading to black */
+  color: black;
+  /* This sets the font size of the heading to 36 pixels */
+  font-size: 36px;
+  /* This sets the font family of the heading to Montserrat */
+  font-family: Montserrat;
+  /* This sets the font weight of the heading to 700 */
+  font-weight: 700;
+}
+
+/* This is the style for the container of the project images */
+.project-images {
+  /* This sets the display mode of the container to flexbox */
+  display: flex;
+  /* This sets the flex wrap of the container to wrap */
+  flex-wrap: wrap;
+  /* This sets the gap between the images to 20 pixels */
+  gap: 20px;
+  /* This sets the justify content of the container to center */
+  justify-content: center;
+}
+
+/* This is the style for the project images */
+.project-images img {
+  /* This sets the width of the images to 255 pixels */
+  width: 255px;
+  /* This sets the height of the images to 255 pixels */
+  height: 255px;
+  /* This sets the border radius of the images to 10 pixels */
+  border-radius: 10px;
+}
+
+/* This is the CSS code for the video section of your web page */
+.video {
+  /* This sets the height of the video section to 735 pixels */
+  height: 735px;
+  /* This sets the background color of the video section to black */
+  background-color: black;
+  /* This sets the display mode of the video section to flexbox */
+  display: flex;
+  /* This sets the flex direction of the video section to column */
+  flex-direction: column;
+  /* This aligns the items of the video section horizontally */
+  justify-content: center;
+  /* This aligns the items of the video section vertically */
+  align-items: center;
+}
+
+/* This is the style for the heading of the video section */
+.video h2 {
+  /* This sets the color of the heading to white */
+  color: white;
+  /* This sets the font size of the heading to 36 pixels */
+  font-size: 36px;
+  /* This sets the font family of the heading to Montserrat */
+  font-family: Montserrat;
+  /* This sets the font weight of the heading to 700 */
+  font-weight: 700;
+}
+
+/* This is the style for the paragraph of the video section */
+.video p {
+  /* This sets the color of the paragraph to white */
+  color: white;
+  /* This sets the font size of the paragraph to 16 pixels */
+  font-size: 16px;
+  /* This sets the font family of the paragraph to Montserrat */
+  font-family: Montserrat;
+  /* This sets the font weight of the paragraph to 400 */
+  font-weight: 400;
+}
+
+/* This is the style for the container of the video player */
+.video-player {
+  /* This sets the width of the container to 970 pixels */
+  width: 970px;
+  /* This sets the height of the container to 430 pixels */
+  height: 430px;
+  /* This sets the background color of the container to #4985FF */
+  background-color: #4985FF;
+  /* This sets the box shadow of the container to 0px 0px 10px rgba(111.35, 111.35, 111.35, 0.25) */
+  box-shadow: 0px 0px 10px rgba(111.35, 111.35, 111.35, 0.25);
+  /* This sets the border radius of the container to 10 pixels */
+  border-radius: 10px;
+  /* This sets the position of the container to relative */
+  position: relative;
+}
+
+/* This is the style for the video player of your web page */
+.video-player video {
+  /* This sets the width of the video player to 100% of the container */
+  width: 100%;
+  /* This sets the height of the video player to 100% of the container */
+  height: 100%;
+  /* This sets the object fit of the video player to cover the entire container */
+  object-fit: cover;
+}
+
+/* This is the style for the button of the video player */
+.video-player button {
+  /* This sets the width of the button to 300 pixels */
+  width: 300px;
+  /* This sets the height of the button to 100 pixels */
+  height: 100px;
+  /* This sets the background color of the button to transparent */
+  background-color: transparent;
+  /* This sets the border of the button to none */
+  border: none;
+  /* This sets the color of the button text to white */
+  color: white;
+  /* This sets the font size of the button text to 16 pixels */
+  font-size: 16px;
+  /* This sets the font family of the button text to Montserrat */
+  font-family: Montserrat;
+  /* This sets the font weight of the button text to 500 */
+  font-weight: 500;
+  /* This sets the text align of the button text to center */
+  text-align: center;
+  /* This sets the cursor of the button to pointer */
+  cursor: pointer;
+  /* This sets the position of the button to absolute */
+  position: absolute;
+  /* This sets the left position of the button to 50% of the container */
+  left: 50%;
+  /* This sets the top position of the button to 50% of the container */
+  top: 50%;
+  /* This sets the transform of the button to center it */
+  transform: translate(-50%, -50%);
+}
+
+/* This is the CSS code for the newsletter section of your web page */
+.newsletter {
+  /* This sets the margin of the newsletter section to 20 pixels */
+  margin: 20px;
+  /* This sets the text align of the newsletter section to center */
+  text-align
